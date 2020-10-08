@@ -160,7 +160,6 @@ export function KeynoteView() {
     const { eventagenda1, eventagenda2 } = useSelector((state) => state.eventagenda);
     const eventId = localStorage.getItem("eventId")
 
-alert(webinarurl)
     
     const [value, setValue] = React.useState(0);
     const handleChange = (event, newValue) => {
