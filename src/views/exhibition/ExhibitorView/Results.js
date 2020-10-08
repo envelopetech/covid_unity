@@ -170,36 +170,36 @@ const Results = ({
 
 
 
-    // let backgroundimage = null
-    // if (exhibitor.id == 17) {
-    //     backgroundimage = background1
-    // }
-    // else if (exhibitor.id == 18) {
-    //     backgroundimage = background5
-    // }
-    // else if (exhibitor.id == 19) {
-    //     backgroundimage = background6
-    // }
-    // else if (exhibitor.id == 20) {
-    //     backgroundimage = background3
-    // }
-    // else if (exhibitor.id == 21) {
-    //     backgroundimage = background2
-    // }
-    // else if (exhibitor.id == 22) {
-    //     backgroundimage = background7
-    // }
+    let backgroundimage = null
+    if (exhibitor.id == 17) {
+        backgroundimage = background1
+    }
+    else if (exhibitor.id == 18) {
+        backgroundimage = background5
+    }
+    else if (exhibitor.id == 19) {
+        backgroundimage = background6
+    }
+    else if (exhibitor.id == 20) {
+        backgroundimage = background3
+    }
+    else if (exhibitor.id == 21) {
+        backgroundimage = background2
+    }
+    else if (exhibitor.id == 22) {
+        backgroundimage = background7
+    }
 
-    // else if (exhibitor.id == 35) {
-    //     backgroundimage = background4
-    // }
+    else if (exhibitor.id == 35) {
+        backgroundimage = background4
+    }
 
     return (
         <React.Fragment>
 
 
             <Grid item container style={{
-                backgroundImage: `url(${exhibitor.stall_image})`,
+                backgroundImage: `url(${exhibitor.backgroundimage})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
