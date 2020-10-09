@@ -199,7 +199,7 @@ const Results = ({
 
 
             <Grid item container style={{
-                backgroundImage: `url(${exhibitor.backgroundimage})`,
+                backgroundImage: `url(${backgroundimage})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
